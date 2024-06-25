@@ -38,3 +38,7 @@ const Player = ({ name, team, nationality, jerseyNumber, age, imagePath }) => {
 };
 
 export default Player;
+Player..defaultProps = {
+  nationality: "Invalid",
+  
+};
