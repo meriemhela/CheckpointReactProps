@@ -38,7 +38,9 @@ const Player = ({ name, team, nationality, jerseyNumber, age, imagePath }) => {
 };
 
 export default Player;
-Player..defaultProps = {
+
+// if we forget to pass value in the parent it will display Invalid
+Player.defaultProps = {
   nationality: "Invalid",
   
 };
